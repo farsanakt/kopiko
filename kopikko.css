@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+width: 100%;
+height: 100%;
+background-color: black;
+}
+.kopiko{
+width: 100%;
+height: 240px;
+color: white;
+text-align: center;
+letter-spacing: 4px;
+font-size: 44px;
+}
+h{
+    text-align: center;
+    font-size: 14px;
+color: wheat;
+letter-spacing: 4px;
+}
+.sub  {
+    font-size: 14px;
+    text-align: center;
+    word-spacing: 5PX;
+    cursor: pointer;
+    transition: all .3s;
+}
+.elements {
+    display :inline-flex;
+    list-style-type: none;
+    
+    
+}
+.e1{
+    padding: 10px; 
+    margin-top: -10px;
+}
+.e1:hover{
+    color: red;
+
+}
+.image img{
+    width: 100%;
+}
+.submain{
+    width: 100%;
+    height: 200px;
+    font-size: 24px;
+    color:#7A7A7A;
+    text-align: center;
+    padding-top: 40px;
+    
+
+} 
+.smallimage{
+   margin-left:300px;
+}
+.smallimage img{
+    width: 75%;
+    justify-content: center;
+}
+.icons{
+    margin-top: 250px;
+    margin-left: 400px;
+}
+.icons img{
+justify-content: center;
+}
+
+.end img {
+margin-left: 460px;
+}
